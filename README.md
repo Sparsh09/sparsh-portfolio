@@ -1,10 +1,19 @@
 
 
-<img src="https://user-images.githubusercontent.com/53139589/147822047-18912f7b-481b-4d9e-8961-12eb760a69d3.png" style="max-width: 100%; object-fit: cover;
-object-position: 20% 10%;">
-<img src="https://user-images.githubusercontent.com/53139589/147822110-4c52a750-97c5-47bd-8372-f3803b8b8033.png" style="max-width: 100%;">
-<img src="https://user-images.githubusercontent.com/53139589/147822154-109632ab-3ca2-4da0-8119-96456b6fdea5.png" style="max-width: 100%;">
-
+<img src="https://user-images.githubusercontent.com/53139589/147822047-18912f7b-481b-4d9e-8961-12eb760a69d3.png" style="object-fit:cover;
+            width:500px;
+            height:230px;
+            border: solid 1px #CCC">
+<br>
+<img src="https://user-images.githubusercontent.com/53139589/147822110-4c52a750-97c5-47bd-8372-f3803b8b8033.png" style="object-fit:cover;
+            width:500px;
+            height:230px;
+            border: solid 1px #CCC">
+            <br>
+<img src="https://user-images.githubusercontent.com/53139589/147822154-109632ab-3ca2-4da0-8119-96456b6fdea5.png" style="object-fit:cover;
+            width:530px;
+            height:230px;
+            border: solid 1px #CCC">
 
 
 # Getting Started with Create React App
