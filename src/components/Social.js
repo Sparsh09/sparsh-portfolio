@@ -1,6 +1,6 @@
 import { Box, Divider, Flex, Heading, HStack, Icon, Progress, Text, useMediaQuery, VStack } from '@chakra-ui/react'
 import React from 'react'
-import {FaFacebookF, FaGoogle, FaSpotify } from 'react-icons/fa';
+import {FaGithub, FaLinkedin } from 'react-icons/fa';
 
 export default function Social() {
     const [isNotSmallerScreen] = useMediaQuery("(min-width:600px)");
@@ -27,13 +27,15 @@ export default function Social() {
                 <Progress colorScheme='blue' size='lg' value={50} />
                 <Heading mb={4} as="h6" size="md" mt={3}>Full Stack Development</Heading>
                 <Progress colorScheme='blue' size='lg' value={70} />
+                <Heading mb={4} as='h6' size="md" mt="3">Flutter & React Native Development</Heading>
+                <Progress colorScheme='blue' size='lg' value={70} />
             </Box>    
 
             </Flex>
         <HStack spacing={28} >
-            <Icon as = {FaFacebookF} boxSize="50" />
-            <Icon as = {FaGoogle} boxSize="50" />
-            <Icon as = {FaSpotify} boxSize="50" />
+            {/* <Icon as = {FaFacebookF} boxSize="50" /> */}
+            <Icon as = {FaGithub} boxSize="75" onClick={() =>window.open("https://github.com/Sparsh09")}/>
+            <Icon as = {FaLinkedin} boxSize="75" onClick={() =>window.open("https://in.linkedin.com/in/sparsh29")} />
         </HStack>
         </VStack>
     )
